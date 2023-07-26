@@ -10,8 +10,7 @@ public class NumberGame {
         boolean playAgain = true;
 
         System.out.println("Welcome to the Number Game!");
-        System.out.println(
-                "You have " + chances + " chances to guess the number between " + min_num + " and " + max_num + ".");
+        System.out.println("You have " + chances + " chances to guess the number between " + min_num + " and " + max_num + ".");
 
         while (playAgain) {
             int randomNumber = getRandomNumber(min_num, max_num);
