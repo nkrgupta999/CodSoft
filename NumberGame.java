@@ -5,7 +5,7 @@ public class NumberGame {
         Scanner sc = new Scanner(System.in);
         int min_num = 1;
         int max_num = 100;
-        int chances = 5;
+        int chances = 10;
         int final_score = 0;
         boolean playAgain = true;
 
@@ -21,7 +21,7 @@ public class NumberGame {
                 int userGuess = sc.nextInt();
 
                 if (userGuess == randomNumber) {
-                    System.out.println("Congratulations! You guessed the number!");
+                    System.out.println("Congratulation! You guessed the number!");
                     guessedCorrectly = true;
                     final_score += 1;
                     break;
