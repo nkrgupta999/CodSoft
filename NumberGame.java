@@ -33,7 +33,7 @@ public class NumberGame {
             }
 
             if (!guessedCorrectly) {
-                System.out.println("Sorry, you've used all your chances. The number was: " + randomNumber);
+                System.out.println("Sorry, You have used all your chances. The number was: " + randomNumber);
             }
 
             System.out.print("Do you want to play again? (yes/no): ");
