@@ -9,7 +9,7 @@ public class NumberGame {
         int final_score = 0;
         boolean playAgain = true;
 
-        System.out.println("Welcome to the Number Game!");
+        System.out.println("Welcome in the Number Game!");
         System.out.println("You have " + chances + " chances to guess the number between " + min_num + " and " + max_num + ".");
 
         while (playAgain) {
