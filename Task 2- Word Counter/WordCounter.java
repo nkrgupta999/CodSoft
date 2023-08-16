@@ -7,6 +7,7 @@ public class WordCounter {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("-----Welcome in Word Counter Task-----");
         System.out.println("Enter '1' to input text, '2' to provide a file:");
         int choice = scanner.nextInt();
         scanner.nextLine(); // Consume the newline character after the integer input
