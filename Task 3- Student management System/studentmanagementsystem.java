@@ -25,7 +25,7 @@ public class studentmanagementsystem extends JFrame implements ActionListener {
     	
 //creating the frame --->
     		
-   	JFrame frame = new JFrame("Student Database");
+   	JFrame frame = new JFrame(" Welcome in Student Database");
   	//JPanel panel = new JPanel();
     JInternalFrame in = new JInternalFrame();
     in.setTitle("Student Management System");
